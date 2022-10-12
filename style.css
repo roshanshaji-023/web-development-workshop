@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* the 3 code collections below is for styling the scrollbar*/
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+     background:  rgb(255 204 62);;
+     border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+     background: #ffffff; 
+}
+
+/* style code for the nav section*/
+.nav{
+    width: 100%;
+    height: 7vh;
+    display: inline-flex;
+    background-color: black;
+    flex-direction: row;
+}
+
+.logo{
+    width: 30%;
+}
+
+.nav-left{
+    margin-right: 30px;
+    width: 70%;
+    text-align: right;
+    
+}
+
+.nav-left a{
+    display: inline-flex;
+    padding: 10px 12px;
+}
+
+.nav h1{padding-left: 3px;
+    color: #8EC5FC;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+/* style code for the header section*/
+.header{    
+    height:40vh;
+    
+       
+    /*
+    background: url(images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    margin: auto;
+    display: flexbox;
+}
+
+.header h3{
+    padding-top: 35px;
+    text-align: center;
+}
+
+/* style code for the main section*/
+
+.main{
+text-align: center;
+min-height: 70vh;
+height: max-content;
+justify-content: center;
+background-color: #fffdfd;
+}
+
+.inside-div{
+    min-height: 30vh;
+    height: auto;
+    margin:50px auto;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border: .3px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #eaeaea;;
+    
+}
+
+.inside-div h3{
+    margin-top: 15px;
+}
+
+
+.inside-div a{
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration:none;
+    color: white;
+    font-size: 10px;
+    
+}
+/*your space to style*/
+
+
+
+/*your space to style*/
+.footer{
+    min-height: 30vh;
+    text-align: center;
+    color: #E0C3FC;
+    background-color: rgb(15, 22, 24);
+}
+
+.footer h4{
+    padding-top: 20px;
+}
