@@ -46,7 +46,8 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-.nav h1{padding-left: 3px;
+.nav h1{
+    padding-left: 3px;
     color: #000000;
     padding-top: 10px;
     margin-left: 30px;
