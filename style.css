@@ -110,16 +110,60 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
-/* style code for the main section*/
+/* style code for tryout section*/
 
-.main{
+.tryout{
 text-align: center;
-min-height: 70vh;
+min-height: 100vh;
 height: max-content;
 justify-content: center;
 background-color: #fffdfd;
 }
 
+/*your space to style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*your space to style*/
 .inside-div{
     min-height: 30vh;
     height: auto;
@@ -130,7 +174,7 @@ background-color: #fffdfd;
     border: .3px solid rgb(3, 3, 3);
     border-radius: 5px;
     box-shadow: 10px 10px 8px #eaeaea;;
-    
+    text-align: center;
 }
 
 .inside-div h3{
@@ -147,15 +191,11 @@ background-color: #fffdfd;
     font-size: 10px;
     
 }
-/*your space to style*/
 
-
-
-/*your space to style*/
 .footer{
     min-height: 30vh;
     text-align: center;
-    color: #E0C3FC;
+    color: #ffdf5d;
     background-color: rgb(15, 22, 24);
 }
 
