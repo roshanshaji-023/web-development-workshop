@@ -61,22 +61,26 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-   background-attachment: fixed;
+    background-attachment: fixed; /* parallax scrolling effect */
 }
 
 .header h3{
     padding-top: 35px;
     text-align: center;
 }
+
 /* style code for the cards section*/
+
 .cards_space{
     min-height: 60vh;
     
 }
+
 .cards_space h3{
     text-align: center;
     margin: 5vh auto;
 }
+
 .cards{
     display: flex;
     min-height: 70vh;
@@ -86,14 +90,14 @@ body::-webkit-scrollbar {
     justify-content: center;
     
 }
+
 .card_img{
     margin: 10px auto;
     width: 90%;
     height: auto;
-    text-align: center;
-   
-    
+    text-align: center; 
 }
+
 /* style code for image with halloween id*/
 #halloween{
     height: min-content;
@@ -101,6 +105,7 @@ body::-webkit-scrollbar {
     height: auto;
 
 }
+
 /* common styles for all cards*/
 .cards>div{
     width: 22%;
@@ -110,6 +115,7 @@ body::-webkit-scrollbar {
     border-radius: 15px;
     text-align: center;
 }
+
 
 /* style code for tryout section*/
 
@@ -165,6 +171,7 @@ background-color: #fffdfd;
 
 
 /*your space to style*/
+
 .inside-div{
     min-height: 30vh;
     height: auto;
