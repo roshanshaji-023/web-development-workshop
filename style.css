@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
 /* style code for the header section*/
 .header{    
     height:100vh;
-    background: url(images/0header.png);
+    background: url(images/header.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
