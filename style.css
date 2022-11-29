@@ -127,13 +127,14 @@ justify-content: center;
 background-color: #fffdfd;
 }
 
-/*your space to style*/
-
-
-
-
-
-/*your space to style*/
+#tryout_link{
+    margin: 5vh auto;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffdf5d;
+    border-radius: 20px;
+    color: black;
+}
 
 
 
