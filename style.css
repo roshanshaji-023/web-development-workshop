@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
     height: 7vh;
     display: inline-flex;
     flex-direction: row;
+    background: rgb(255 222 89);
 }
 
 .logo{
@@ -41,25 +42,25 @@ body::-webkit-scrollbar {
 .nav-left a{
     display: inline-flex;
     padding: 10px 12px;
-    color: #8EC5FC;
+    color: #000000;
     text-decoration: none;
 }
 
 .nav h1{padding-left: 3px;
-    color: #8EC5FC;
+    color: #000000;
     padding-top: 10px;
     margin-left: 30px;
 }
 
 /* style code for the header section*/
 .header{    
-    height:90vh;
+    height:100vh;
     background: url(images/0header.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-   
+   background-attachment: fixed;
 }
 
 .header h3{
