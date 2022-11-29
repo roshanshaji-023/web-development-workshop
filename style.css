@@ -121,7 +121,7 @@ body::-webkit-scrollbar {
 
 .tryout{
 text-align: center;
-min-height: 100vh;
+min-height: 30vh;
 height: max-content;
 justify-content: center;
 background-color: #fffdfd;
@@ -133,72 +133,9 @@ background-color: #fffdfd;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*your space to style*/
 
-.inside-div{
-    min-height: 30vh;
-    height: auto;
-    margin:50px auto;
-    width: 40%;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    border: .3px solid rgb(3, 3, 3);
-    border-radius: 5px;
-    box-shadow: 10px 10px 8px #eaeaea;;
-    text-align: center;
-}
 
-.inside-div h3{
-    margin-top: 15px;
-}
-
-
-.inside-div a{
-    padding: 10px 12px;
-    border-radius: 10px;
-    background-color: black;
-    text-decoration:none;
-    color: white;
-    font-size: 10px;
-    
-}
 
 .footer{
     min-height: 30vh;
