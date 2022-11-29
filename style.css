@@ -88,7 +88,6 @@ body::-webkit-scrollbar {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    
 }
 
 .card_img{
@@ -103,7 +102,6 @@ body::-webkit-scrollbar {
     height: min-content;
     width:60%;
     height: auto;
-
 }
 
 /* common styles for all cards*/
@@ -115,7 +113,6 @@ body::-webkit-scrollbar {
     border-radius: 15px;
     text-align: center;
 }
-
 
 /* style code for tryout section*/
 
@@ -141,7 +138,11 @@ background-color: #fffdfd;
     min-height: 30vh;
     text-align: center;
     color: #ffdf5d;
+    background: url(Images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(15, 22, 24);
+    background-attachment: fixed;
 }
 
 .footer h4{
