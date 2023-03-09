@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* the 3 code collections below is for styling the scrollbar*/
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+     background:  rgb(255 204 62);;
+     border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+     background: #ffffff; 
+}
+
+/* style code for the nav section*/
+.nav{
+    width: 100%;
+    height: 7vh;
+    display: inline-flex;
+    flex-direction: row;
+    background: rgb(255 222 89);
+}
+
+.logo{
+    width: 30%;
+}
+
+.nav-left{
+    margin-right: 30px;
+    width: 70%;
+    text-align: right;
+    
+}
+
+.nav-left a{
+    display: inline-flex;
+    padding: 10px 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav h1{
+    padding-left: 3px;
+    color: #000000;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+/* style code for the header section*/
+.header{    
+    height:100vh;
+    background: url(images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed; /* parallax scrolling effect */
+}
+
+.header h3{
+    padding-top: 35px;
+    text-align: center;
+}
+
+/* style code for the cards section*/
+
+.cards_space{
+    min-height: 60vh;
+    
+}
+
+.cards_space h3{
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.cards{
+    display: flex;
+    min-height: 70vh;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card_img{
+    margin: 10px auto;
+    width: 90%;
+    height: auto;
+    text-align: center; 
+}
+
+/* style code for image with halloween id*/
+#halloween{
+    height: min-content;
+    width:60%;
+    height: auto;
+}
+
+/* common styles for all cards*/
+.cards>div{
+    width: 22%;
+    height: 50vh;
+    background-color: #f8f8f8;
+    margin: 5vh 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* style code for tryout section*/
+
+.tryout{
+text-align: center;
+min-height: 30vh;
+height: max-content;
+justify-content: center;
+background-color: #fffdfd;
+}
+
+#tryout_link{
+    margin: 5vh auto;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffdf5d;
+    border-radius: 20px;
+    color: black;
+}
+
+/*code for footer area*/
+.footer{
+    min-height: 30vh;
+    text-align: center;
+    color: #ffdf5d;
+    background: url(images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(15, 22, 24);
+    background-attachment: fixed;
+}
+
+.footer h4{
+    padding-top: 20px;
+}
